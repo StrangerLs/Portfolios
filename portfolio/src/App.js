@@ -111,13 +111,13 @@ function App() {
           </form>
         </div>
         <div id="icon">
-          <a>
+          <a href='https://www.canva.com/design/DAEZarFnZaw/PAGJVMKzjHAJ3jkQIWTZhQ/view?utm_content=DAEZarFnZaw&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton' target='_blank'>
             <img id="paper" src="https://i.imgur.com/4ao1kEv.png" />
           </a>
-          <a>
+          <a href='https://www.linkedin.com/in/paul-william-moschetti/' target='_blank'>
             <img id="linked" src="https://i.imgur.com/Nbest9W.png" alt="" />
           </a>
-          <a>
+          <a href='https://github.com/StrangerLs' target='_blank'>
             <img id="git" src="https://i.imgur.com/rsYQk0h.png" alt="" />
           </a>
           <div>
