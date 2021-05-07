@@ -1,5 +1,8 @@
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  background-color: #EFE7BC;
 }
 
 #flutter,
@@ -14,9 +17,63 @@
 #paper{
   height: 7%;
   width: 7%;
+  margin-left: 5%;
+  margin-right: 2%;
 }
 
 #chopstick{
   height: 50%;
   width: 50%;
+}
+
+#projs,
+#contacts,
+#abouts{
+  text-decoration: none;
+  color: #E7F2F8;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px black solid;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #FFA384;
+
+}
+#softEng{
+  color: white;
+}
+#greeting{
+  margin-top: 10%;
+  color: #74BDCB;
+}
+
+p{
+  color: #74BDCB;
+  
+}
+a{
+  text-decoration: none;
+}
+
+form{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+textarea,
+input{
+  margin-bottom: 2%;
+}
+
+button{
+  width:20%;
 }

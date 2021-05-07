@@ -23,15 +23,21 @@ function sendEmail(e) {
 function App() {
   return (
     <div className="App">
-      <div class="nav">
-        <a href="#projects">Projects</a>
-        <a href="#about">About Me</a>
-        <a href="#contact">Contact Me</a>
+      <div className="nav">
+        <a href="#projects" id="projs">
+          Projects
+        </a>
+        <a href="#about" id="abouts">
+          About Me
+        </a>
+        <a href="#contact" id="contacts">
+          Contact Me
+        </a>
       </div>
 
-      <div>
+      <div id="greeting">
         <h1>Paul Moschetti</h1>
-        <h2>Software Engineer</h2>
+        <h2 id="softEng">Software Engineer</h2>
       </div>
 
       <div id="projects">
@@ -80,32 +86,40 @@ function App() {
         <h1>About Me</h1>
         <img id="chopstick" src="https://i.imgur.com/s5L8XgD.png" />
         <p>
-          Hello! My name is Paul Moschetti, I am creative, driven, and people
-          loving! I am transitioning from coffee professional, and competitor,
-          to software engineer. Whether it’s milk texture or debugging, I bring
-          the same dedication to better myself and hone my craft, in order to
-          provide a refined and transformative product.
+          Hello! My name is Paul Moschetti, I am a creative, driven, and people
+          minded individual! I am transitioning from coffee professional, and
+          competitor, to software engineer. Whether it’s milk texture or
+          debugging, I bring the same dedication to better myself and hone my
+          craft, in order to provide a refined and transformative product.
         </p>
       </div>
-
+      <h1>Contact Me!</h1>
       <div id="contact">
-        <form onSubmit={sendEmail}>
-          <input type="text" name="subject" placeholder="Subject" required />
-          <input type="text" name="name" placeholder="Name" required />
-          <input type="text" name="email" placeholder="Email" required />
-          <textarea
-            rows={8}
-            type="text"
-            name="message"
-            placeholder="Message"
-            required
-          />
-          <button>Send</button>
-        </form>
+        <div id='form'>
+          <form onSubmit={sendEmail}>
+            <input type="text" name="subject" placeholder="Subject" required />
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="text" name="email" placeholder="Email" required />
+            <textarea
+              rows={8}
+              type="text"
+              name="message"
+              placeholder="Message"
+              required
+            />
+            <button>Send</button>
+          </form>
+        </div>
         <div id="icon">
-          <img id="paper" src="https://i.imgur.com/4ao1kEv.png" />
-          <img id="linked" src="https://i.imgur.com/Nbest9W.png" alt="" />
-          <img id="git" src="https://i.imgur.com/rsYQk0h.png" alt="" />
+          <a>
+            <img id="paper" src="https://i.imgur.com/4ao1kEv.png" />
+          </a>
+          <a>
+            <img id="linked" src="https://i.imgur.com/Nbest9W.png" alt="" />
+          </a>
+          <a>
+            <img id="git" src="https://i.imgur.com/rsYQk0h.png" alt="" />
+          </a>
           <div>
             Icons made by{" "}
             <a href="https://www.freepik.com" title="Freepik">
