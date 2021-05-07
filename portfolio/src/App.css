@@ -3,7 +3,12 @@
   flex-direction: column;
   text-align: center;
   background-color: #EFE7BC;
+  font-family: 'Barlow Condensed', sans-serif;
+  
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
 
 #flutter,
 #fscc,
@@ -49,8 +54,10 @@
   color: white;
 }
 #greeting{
-  margin-top: 10%;
+  margin-top: 20%;
+  margin-bottom: 20%;
   color: #74BDCB;
+  font-size: 160%;
 }
 
 p{
