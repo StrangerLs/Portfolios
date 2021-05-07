@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+#flutter,
+#fscc,
+#rr {
+  height: 40%;
+  width: 50%;
+  border: 1px solid black;
+}
+#linked,
+#git,
+#paper{
+  height: 7%;
+  width: 7%;
+}
+
+#chopstick{
+  height: 50%;
+  width: 50%;
+}
