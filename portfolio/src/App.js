@@ -34,6 +34,7 @@ function App() {
           Contact Me
         </a>
       </div>
+      <div id='backimg'>
 
       <div id="greeting">
         <h1>Paul Moschetti</h1>
@@ -41,6 +42,7 @@ function App() {
       </div>
 
       <h2 id="pHead">Projects</h2>
+      </div>
 
       <div id="projects">
         <div id="fullStack">
