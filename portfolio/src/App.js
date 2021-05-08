@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <div className="nav">
-        <a href="#projects" id="projs">
+        <a href="#pHead" id="projs">
           Projects
         </a>
         <a href="#about" id="abouts">
