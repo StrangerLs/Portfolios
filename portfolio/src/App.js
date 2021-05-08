@@ -113,7 +113,7 @@ function App() {
             />
             <p className='projDesc'>
               Flutter is a bird lovers social media app. This app uses React in
-              the front end with a Ruby-on-Rails backend
+              the front end with a Ruby-on-Rails backend and a SQL database.
             </p>
           </a>
           <a
