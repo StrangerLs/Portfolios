@@ -40,10 +40,10 @@ function App() {
         <h2 id="softEng">Software Engineer</h2>
       </div>
 
-        <h2 id='pHead'>Projects</h2>
+      <h2 id="pHead">Projects</h2>
 
       <div id="projects">
-        <div id='fullStack'>
+        <div id="fullStack">
           <a
             href="https://fullstackcoffee.netlify.app/"
             target="_blank"
@@ -69,7 +69,7 @@ function App() {
             See it on GitHub
           </a>
         </div>
-        <div id='RandR'>
+        <div id="RandR">
           <a
             href="https://epic-joliot-cbf23d.netlify.app"
             target="_blank"
@@ -95,7 +95,7 @@ function App() {
           </a>
         </div>
 
-        <div id='birds'>
+        <div id="birds">
           <a
             href="https://flutterbird.surge.sh"
             target="_blank"
@@ -129,7 +129,7 @@ function App() {
           src="https://i.imgur.com/s5L8XgD.png"
           alt="paul moschetti"
         />
-        <p id='post'>
+        <p id="post">
           Hello! My name is Paul Moschetti, I am a creative, driven, and people
           minded individual! I am transitioning from coffee professional, and
           competitor, to software engineer. Whether it’s milk texture or

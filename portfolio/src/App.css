@@ -2,13 +2,11 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: #EFE7BC;
-  font-family: 'Barlow Condensed', sans-serif;
-  
+  background-color: #efe7bc;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap");
 
 #flutter,
 #fscc,
@@ -19,14 +17,14 @@
 }
 #linked,
 #git,
-#paper{
+#paper {
   height: 7%;
   width: 7%;
   margin-left: 5%;
   margin-right: 2%;
 }
 
-#chopstick{
+#chopstick {
   height: 40%;
   width: 40%;
   margin-bottom: -25%;
@@ -37,17 +35,17 @@
   margin: 0 auto;
   font-size: 140%;
   font-weight: bold;
-  margin-bottom: 20%;
+  margin-bottom: 15%;
 }
 
 #projs,
 #contacts,
-#abouts{
+#abouts {
   text-decoration: none;
-  color: #E7F2F8;
+  color: #e7f2f8;
   font-size: 200%;
 }
-.nav{
+.nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -57,28 +55,26 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #FFA384;
-
+  background-color: #ffa384;
 }
-#softEng{
+#softEng {
   color: white;
 }
-#greeting{
+#greeting {
   margin-top: 20%;
   margin-bottom: 20%;
-  color: #74BDCB;
+  color: #74bdcb;
   font-size: 160%;
 }
 
-p{
-  color: #74BDCB;
-  
+p {
+  color: #74bdcb;
 }
-a{
+a {
   text-decoration: none;
 }
 
-form{
+form {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -87,22 +83,23 @@ form{
 }
 
 textarea,
-input{
+input {
   margin-bottom: 2%;
 }
 
-button{
-  width:20%;
+button {
+  width: 20%;
 }
 
-#projects{
+#projects {
   display: flex;
   flex-flow: column wrap;
-  margin-bottom: 20%;
+  margin-bottom: 15%;
+  font-size: 150%;
+  font-weight: bold;
 }
-#pHead{
-  display: flex;
-  margin-left: 10%;
+#pHead {
   font-size: 180%;
-  left: 0;
+
+  margin-top: 10%;
 }
