@@ -27,8 +27,17 @@
 }
 
 #chopstick{
-  height: 50%;
-  width: 50%;
+  height: 40%;
+  width: 40%;
+  margin-bottom: -25%;
+}
+
+#post {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 140%;
+  font-weight: bold;
+  margin-bottom: 20%;
 }
 
 #projs,
@@ -36,6 +45,7 @@
 #abouts{
   text-decoration: none;
   color: #E7F2F8;
+  font-size: 200%;
 }
 .nav{
   display: flex;
@@ -83,4 +93,16 @@ input{
 
 button{
   width:20%;
+}
+
+#projects{
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 20%;
+}
+#pHead{
+  display: flex;
+  margin-left: 10%;
+  font-size: 180%;
+  left: 0;
 }

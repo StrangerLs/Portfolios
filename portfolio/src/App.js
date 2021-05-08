@@ -40,53 +40,96 @@ function App() {
         <h2 id="softEng">Software Engineer</h2>
       </div>
 
-      <div id="projects">
-        <h2>Projects</h2>
-        <a href="https://fullstackcoffee.netlify.app/" target="_blank" rel='noreferrer'>
-          <h3>Full Stack Coffee Co.</h3>
-          <img id="fscc" src="https://i.imgur.com/PkJGO3m.png" alt='fullstack web app'/>
-          <p>
-            'Full Stack Coffee Co' is a MERN stack e-commerce app that sells
-            specialty coffee products. This project was a collaberation between
-            me and 3 others.
-          </p>
-        </a>
-        <a href="https://github.com/JustinKnuth/fscc" target="_blank" rel='noreferrer'>
-          See it on GitHub
-        </a>
-        <a href="https://epic-joliot-cbf23d.netlify.app" target="_blank" rel='noreferrer'>
-          <h3>Roots & Rosemary</h3>
-          <img id="rr" src="https://i.imgur.com/a3L7YvM.png" alt='roots web app'/>
-          <p>
-            Roots & Rosemary is a react based recipe app that utilizes airtable
-            as an API.{" "}
-          </p>
-        </a>
-        <a
-          href="https://github.com/StrangerLs/Roots-and-Rosemary"
-          target="_blank"
-          rel='noreferrer'
-        >
-          See it on GitHub
-        </a>
+        <h2 id='pHead'>Projects</h2>
 
-        <a href="https://flutterbird.surge.sh" target="_blank" rel='noreferrer'>
-          <h3>Flutter</h3>
-          <img id="flutter" src="https://i.imgur.com/aOolbiS.png" alt='flutter web app'/>
-          <p>
-            Flutter is a bird lovers social media app. This app uses React in
-            the front end with a Ruby-on-Rails backend
-          </p>
-        </a>
-        <a href="https://github.com/StrangerLs/Flutter" target="_blank" rel='noreferrer'>
-          See it on GitHub
-        </a>
+      <div id="projects">
+        <div id='fullStack'>
+          <a
+            href="https://fullstackcoffee.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3>Full Stack Coffee Co.</h3>
+            <img
+              id="fscc"
+              src="https://i.imgur.com/PkJGO3m.png"
+              alt="fullstack web app"
+            />
+            <p>
+              'Full Stack Coffee Co' is a MERN stack e-commerce app that sells
+              specialty coffee products. This project was a collaberation
+              between me and 3 others.
+            </p>
+          </a>
+          <a
+            href="https://github.com/JustinKnuth/fscc"
+            target="_blank"
+            rel="noreferrer"
+          >
+            See it on GitHub
+          </a>
+        </div>
+        <div id='RandR'>
+          <a
+            href="https://epic-joliot-cbf23d.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3>Roots & Rosemary</h3>
+            <img
+              id="rr"
+              src="https://i.imgur.com/a3L7YvM.png"
+              alt="roots web app"
+            />
+            <p>
+              Roots & Rosemary is a react based recipe app that utilizes
+              airtable as an API.{" "}
+            </p>
+          </a>
+          <a
+            href="https://github.com/StrangerLs/Roots-and-Rosemary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            See it on GitHub
+          </a>
+        </div>
+
+        <div id='birds'>
+          <a
+            href="https://flutterbird.surge.sh"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3>Flutter</h3>
+            <img
+              id="flutter"
+              src="https://i.imgur.com/aOolbiS.png"
+              alt="flutter web app"
+            />
+            <p>
+              Flutter is a bird lovers social media app. This app uses React in
+              the front end with a Ruby-on-Rails backend
+            </p>
+          </a>
+          <a
+            href="https://github.com/StrangerLs/Flutter"
+            target="_blank"
+            rel="noreferrer"
+          >
+            See it on GitHub
+          </a>
+        </div>
       </div>
 
       <div id="about">
         <h1>About Me</h1>
-        <img id="chopstick" src="https://i.imgur.com/s5L8XgD.png" alt='paul moschetti'/>
-        <p>
+        <img
+          id="chopstick"
+          src="https://i.imgur.com/s5L8XgD.png"
+          alt="paul moschetti"
+        />
+        <p id='post'>
           Hello! My name is Paul Moschetti, I am a creative, driven, and people
           minded individual! I am transitioning from coffee professional, and
           competitor, to software engineer. Whether it’s milk texture or
@@ -96,7 +139,7 @@ function App() {
       </div>
       <h1>Contact Me!</h1>
       <div id="contact">
-        <div id='form'>
+        <div id="form">
           <form onSubmit={sendEmail}>
             <input type="text" name="subject" placeholder="Subject" required />
             <input type="text" name="name" placeholder="Name" required />
@@ -112,14 +155,38 @@ function App() {
           </form>
         </div>
         <div id="icon">
-          <a href='https://www.canva.com/design/DAEZarFnZaw/PAGJVMKzjHAJ3jkQIWTZhQ/view?utm_content=DAEZarFnZaw&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton' target='_blank' rel='noreferrer'>
-            <img id="paper" src="https://i.imgur.com/4ao1kEv.png" alt='paper icon'/>
+          <a
+            href="https://www.canva.com/design/DAEZarFnZaw/PAGJVMKzjHAJ3jkQIWTZhQ/view?utm_content=DAEZarFnZaw&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              id="paper"
+              src="https://i.imgur.com/4ao1kEv.png"
+              alt="paper icon"
+            />
           </a>
-          <a href='https://www.linkedin.com/in/paul-william-moschetti/' target='_blank' rel='noreferrer'>
-            <img id="linked" src="https://i.imgur.com/Nbest9W.png" alt="linked in icon" />
+          <a
+            href="https://www.linkedin.com/in/paul-william-moschetti/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              id="linked"
+              src="https://i.imgur.com/Nbest9W.png"
+              alt="linked in icon"
+            />
           </a>
-          <a href='https://github.com/StrangerLs' target='_blank' rel='noreferrer'>
-            <img id="git" src="https://i.imgur.com/rsYQk0h.png" alt="github icon" />
+          <a
+            href="https://github.com/StrangerLs"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              id="git"
+              src="https://i.imgur.com/rsYQk0h.png"
+              alt="github icon"
+            />
           </a>
           <div>
             Icons made by{" "}
