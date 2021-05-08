@@ -153,6 +153,13 @@ function App() {
             />
             <button>Send</button>
           </form>
+          <div className='ilabel'>
+            
+            <p id='resL'>Resume </p>
+            <p id='linL'>LinkedIn</p>
+            <p id='gitL'>GitHub</p>
+          </div>
+          
         </div>
         <div id="icon">
           <a
@@ -166,6 +173,7 @@ function App() {
               alt="paper icon"
             />
           </a>
+
           <a
             href="https://www.linkedin.com/in/paul-william-moschetti/"
             target="_blank"
@@ -177,6 +185,7 @@ function App() {
               alt="linked in icon"
             />
           </a>
+
           <a
             href="https://github.com/StrangerLs"
             target="_blank"
@@ -188,38 +197,40 @@ function App() {
               alt="github icon"
             />
           </a>
-          <div>
-            Icons made by{" "}
-            <a href="https://www.freepik.com" title="Freepik">
-              Freepik
-            </a>{" "}
-            from{" "}
-            <a href="https://www.flaticon.com/" title="Flaticon">
-              www.flaticon.com
-            </a>
-          </div>
-          <div>
-            Icons made by{" "}
-            <a href="https://www.flaticon.com/authors/google" title="Google">
-              Google
-            </a>{" "}
-            from{" "}
-            <a href="https://www.flaticon.com/" title="Flaticon">
-              www.flaticon.com
-            </a>
-          </div>
-          <div>
-            Icons made by{" "}
-            <a
-              href="https://www.flaticon.com/authors/pixel-perfect"
-              title="Pixel perfect"
-            >
-              Pixel perfect
-            </a>{" "}
-            from{" "}
-            <a href="https://www.flaticon.com/" title="Flaticon">
-              www.flaticon.com
-            </a>
+          <div id="iconsrc">
+            <div>
+              Icons made by{" "}
+              <a href="https://www.freepik.com" title="Freepik">
+                Freepik
+              </a>{" "}
+              from{" "}
+              <a href="https://www.flaticon.com/" title="Flaticon">
+                www.flaticon.com
+              </a>
+            </div>
+            <div>
+              Icons made by{" "}
+              <a href="https://www.flaticon.com/authors/google" title="Google">
+                Google
+              </a>{" "}
+              from{" "}
+              <a href="https://www.flaticon.com/" title="Flaticon">
+                www.flaticon.com
+              </a>
+            </div>
+            <div>
+              Icons made by{" "}
+              <a
+                href="https://www.flaticon.com/authors/pixel-perfect"
+                title="Pixel perfect"
+              >
+                Pixel perfect
+              </a>{" "}
+              from{" "}
+              <a href="https://www.flaticon.com/" title="Flaticon">
+                www.flaticon.com
+              </a>
+            </div>
           </div>
         </div>
       </div>
