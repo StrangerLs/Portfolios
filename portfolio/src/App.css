@@ -81,9 +81,7 @@ input {
   margin-bottom: 2%;
 }
 
-button {
-  width: 20%;
-}
+
 
 
 
@@ -124,7 +122,7 @@ button {
   margin-top: 10%;
 }
 
-.projects {
+#projects {
   display: flex;
   flex-flow: column wrap;
   margin-bottom: 15%;
@@ -176,4 +174,24 @@ flex-flow: column wrap;
   font-weight: bold;
   color: #ffa384;
   font-size: 150%;
+}
+
+/* Form styling */
+
+input{
+  border-radius: 5%;
+  border: 10px rgba(197, 195, 57, 0.233) solid;
+  
+}
+
+textarea{
+  border-radius: 3%;
+  border: 10px rgba(197, 195, 57, 0.233) solid;
+}
+
+button {
+  width: 20%;
+  border: none;
+  height: 90%;
+  background-color: #ffa384;
 }

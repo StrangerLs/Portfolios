@@ -42,7 +42,7 @@ function App() {
 
       <h2 id="pHead">Projects</h2>
 
-      <div className="projects">
+      <div id="projects">
         <div id="fullStack">
           <a
             href="https://fullstackcoffee.netlify.app/"
@@ -156,6 +156,7 @@ function App() {
             />
             <button>Send</button>
           </form>
+        </div>
           <div className='ilabel'>
             
             <p id='resL'>Resume </p>
@@ -163,7 +164,6 @@ function App() {
             <p id='gitL'>GitHub</p>
           </div>
           
-        </div>
         <div id="icon">
           <a
             href="https://drive.google.com/file/d/1j5ecac0ONhnuMwm2NH39FIGpRXvL7Cy2/view?usp=sharing"
