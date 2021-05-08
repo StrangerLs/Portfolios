@@ -156,7 +156,7 @@ function App() {
         </div>
         <div id="icon">
           <a
-            href="https://www.canva.com/design/DAEZarFnZaw/PAGJVMKzjHAJ3jkQIWTZhQ/view?utm_content=DAEZarFnZaw&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
+            href="https://drive.google.com/file/d/1j5ecac0ONhnuMwm2NH39FIGpRXvL7Cy2/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
