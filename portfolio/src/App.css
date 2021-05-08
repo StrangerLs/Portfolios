@@ -167,6 +167,8 @@ flex-flow: column wrap;
   width: 40%;
   float: right;
   margin-right: 2%;
+  font-weight: bold;
+  font-size: 150%;
 }
 
 
@@ -194,4 +196,30 @@ button {
   border: none;
   height: 90%;
   background-color: #ffa384;
+}
+
+@media (max-width:400px) {
+  .projDesc{
+    width: 90%;
+    margin-right: 5%;
+  }
+
+
+#flutter,
+#fscc,
+#rr {
+  height: 40%;
+  width: 50%;
+  border: 1px solid black;
+  float: unset;
+  margin: 0 auto;
+}
+
+#post{
+  width: 90%;
+}
+
+button{
+  width: 30%;
+}
 }
