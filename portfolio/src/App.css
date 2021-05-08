@@ -115,13 +115,17 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-right: 7%;
+  
 }
 
-#resL,
+
 #linL,
 #gitL {
   margin-left: 10%;
   font-weight: bold;
   
+}
+#resL{
+  font-weight: bold;
+  margin-left: 2%;
 }
