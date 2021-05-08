@@ -42,20 +42,20 @@ function App() {
 
       <h2 id="pHead">Projects</h2>
 
-      <div id="projects">
+      <div className="projects">
         <div id="fullStack">
           <a
             href="https://fullstackcoffee.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            <h3>Full Stack Coffee Co.</h3>
+            <h3 className='titles'>Full Stack Coffee Co.</h3>
             <img
               id="fscc"
               src="https://i.imgur.com/PkJGO3m.png"
               alt="fullstack web app"
             />
-            <p>
+            <p className='projDesc'>
               'Full Stack Coffee Co' is a MERN stack e-commerce app that sells
               specialty coffee products. This project was a collaberation
               between me and 3 others.
@@ -65,6 +65,7 @@ function App() {
             href="https://github.com/JustinKnuth/fscc"
             target="_blank"
             rel="noreferrer"
+            className='siog'
           >
             See it on GitHub
           </a>
@@ -75,13 +76,13 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            <h3>Roots & Rosemary</h3>
+            <h3 className='titles'>Roots & Rosemary</h3>
             <img
               id="rr"
               src="https://i.imgur.com/a3L7YvM.png"
               alt="roots web app"
             />
-            <p>
+            <p className='projDesc'>
               Roots & Rosemary is a react based recipe app that utilizes
               airtable as an API.{" "}
             </p>
@@ -90,6 +91,7 @@ function App() {
             href="https://github.com/StrangerLs/Roots-and-Rosemary"
             target="_blank"
             rel="noreferrer"
+            className='siog'
           >
             See it on GitHub
           </a>
@@ -101,13 +103,13 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            <h3>Flutter</h3>
+            <h3 className='titles'>Flutter</h3>
             <img
               id="flutter"
               src="https://i.imgur.com/aOolbiS.png"
               alt="flutter web app"
             />
-            <p>
+            <p className='projDesc'>
               Flutter is a bird lovers social media app. This app uses React in
               the front end with a Ruby-on-Rails backend
             </p>
@@ -116,6 +118,7 @@ function App() {
             href="https://github.com/StrangerLs/Flutter"
             target="_blank"
             rel="noreferrer"
+            className='siog'
           >
             See it on GitHub
           </a>

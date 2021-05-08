@@ -8,13 +8,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap");
 
-#flutter,
-#fscc,
-#rr {
-  height: 40%;
-  width: 50%;
-  border: 1px solid black;
-}
+
 #linked,
 #git,
 #paper {
@@ -91,18 +85,8 @@ button {
   width: 20%;
 }
 
-#projects {
-  display: flex;
-  flex-flow: column wrap;
-  margin-bottom: 15%;
-  font-size: 150%;
-  font-weight: bold;
-}
-#pHead {
-  font-size: 180%;
 
-  margin-top: 10%;
-}
+
 
 #iconsrc{
   display: flex;
@@ -128,4 +112,68 @@ button {
 #resL{
   font-weight: bold;
   margin-left: 2%;
+}
+
+
+
+/* Here begins styling of the 3 projects. May God have mercy on me. */
+
+#pHead {
+  font-size: 180%;
+
+  margin-top: 10%;
+}
+
+.projects {
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 15%;
+  font-size: 150%;
+  font-weight: bold;
+  justify-content: space-around;
+}
+
+#fullStack{
+display: flex;
+flex-flow: column wrap;
+}
+
+#flutter,
+#fscc,
+#rr {
+  height: 40%;
+  width: 50%;
+  border: 1px solid black;
+  float: left;
+  margin-left: 2%;
+}
+
+#RandR{
+display: flex;
+flex-flow: column wrap;
+}
+
+#birds{
+display: flex;
+flex-flow: column wrap;
+}
+
+.siog{
+  margin-top: 5%;
+  margin-bottom: 7%;
+  border-bottom: 1px solid black;
+}
+
+.projDesc{
+  margin-top: 10%;
+  width: 40%;
+  float: right;
+  margin-right: 2%;
+}
+
+
+.titles{
+  font-weight: bold;
+  color: #ffa384;
+  font-size: 150%;
 }
