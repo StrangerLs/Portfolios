@@ -230,3 +230,29 @@ button{
   width: 30%;
 }
 }
+
+@media (max-width: 1200px) {
+  .projDesc{
+    font-size: 110%;
+  }
+  
+  
+}
+
+@media (max-width: 900px) {
+  .projDesc{
+    width: 90%;
+    margin-right: 5%;
+  }
+
+
+#flutter,
+#fscc,
+#rr {
+  height: 40%;
+  width: 50%;
+  border: 1px solid black;
+  float: unset;
+  margin: 0 auto;
+}
+}
