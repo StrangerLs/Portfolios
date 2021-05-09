@@ -41,8 +41,8 @@ function App() {
         <h2 id="softEng">Software Engineer</h2>
       </div>
 
-      <h2 id="pHead">Projects</h2>
       </div>
+      <h2 id="pHead">Projects</h2>
 
       <div id="projects">
         <div id="fullStack">

@@ -19,9 +19,9 @@
 }
 
 #chopstick {
-  height: 40%;
   width: 40%;
   margin-bottom: -25%;
+  
 }
 
 #post {
@@ -125,7 +125,7 @@ input {
 
 #pHead {
   font-size: 180%;
-  color: #e7f2f8;
+  color: black;
   margin-top: 10%;
 }
 
